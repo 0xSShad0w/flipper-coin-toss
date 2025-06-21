@@ -1,0 +1,1 @@
+flipper_add_app(example_adc "Coin Toss" example_adc.c) 
