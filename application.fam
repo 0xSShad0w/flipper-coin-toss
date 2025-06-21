@@ -1,9 +1,1 @@
-App(
-    appid="example_adc",
-    name="Example: ADC",
-    apptype=FlipperAppType.EXTERNAL,
-    entry_point="example_adc_main",
-    requires=["gui"],
-    stack_size=1 * 1024,
-    fap_category="Examples",
-)
+App(appid="coin_toss_simple", name="Coin Toss Simple", apptype=FlipperAppType.EXTERNAL, entry_point="coin_toss_simple_app", requires=["gui"], stack_size=4 * 1024, fap_category="Games")
